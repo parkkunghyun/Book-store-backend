@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://book-store-front-smoky.vercel.app/'],  // 정확하게 프론트 주소
+    origin: ['http://localhost:5173', 'https://book-store-front-smoky.vercel.app'],  // 정확하게 프론트 주소
     credentials: true                // 쿠키, 토큰 주고 받을 수 있게
   }));
 app.use(express.json());
