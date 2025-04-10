@@ -25,7 +25,7 @@ const MONGO_URI = process.env.MONGO_URI;
 const PORT = process.env.PORT;
 
 app.get("/", (req, res) => {
-    res.send("asfa");
+    res.send("hello express");
 })
 
 mongoose.connect(MONGO_URI)
